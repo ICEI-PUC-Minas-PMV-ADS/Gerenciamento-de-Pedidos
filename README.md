@@ -1,23 +1,26 @@
-# TÍTULO DO PROJETO
+# Gerenciador de Pedidos
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento Aplicação Web-Backend`
 
-`SEMESTRE`
+`Eixo 2 - 01/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo geral deste projeto é desenvolver uma aplicação para gerenciar pedidos de uma lanchonete, restaurante ou similares.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Alvaro Henrique Orfus Tavares
+* Amaury Vinícius Costa Magno
+* Gustavo Felix Braga
+* Pedro Flávio Ferreira Nogueira
+* Samuel Filipe Nogueira dos Santos
+* Siderley Tadeu Rosa de Oliveura Luciano
+* Vitor Abi-Acl Simões Galinari
 
 ## Orientador
 
-* Nome completo do professor 1
+* Bernardo eunon de Alencar
 
 ## Instruções de utilização
 
