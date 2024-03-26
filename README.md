@@ -20,7 +20,7 @@ O objetivo geral deste projeto é desenvolver uma aplicação para gerenciar ped
 
 ## Orientador
 
-* Bernardo eunon de Alencar
+* Bernardo Jeunon de Alencar
 
 ## Instruções de utilização
 
