@@ -6,6 +6,7 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
+
 ## Personas
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
@@ -21,6 +22,7 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 > - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
 >
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+
 
 ## Histórias de Usuários
 
@@ -39,6 +41,7 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 > - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
 > - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+
 
 ## Modelagem do Processo de Negócio 
 
@@ -62,6 +65,7 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ![Processo 2](img/02-bpmn-proc2.png)
 
+
 ## Indicadores de Desempenho
 
 Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
@@ -71,53 +75,135 @@ Usar o seguinte modelo:
 ![Indicadores de Desempenho](img/02-indic-desemp.png)
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
+
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
 
+
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+<table>
+<tbody>
+<tr align=center>
+<td width="100px"><b>ID</b></td>
+<td width="650px"><b>Descrição</b></td>
+<td width="100px"><b>Prioridade</b></td>
+</tr>
+<tr>
+<td><b>RF-001</b></td>
+<td>Deve permitir o gerente fazer login</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><b>RF-002</b></td>
+<td>Deve permitir ao gerente adicionar produtos</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><b>RF-003</b></td>
+<td>Deve permitir o gerente visualizar todos os pedidos realizados</td>
+<td>Média</td>
+</tr>
+<tr>
+<td><b>RF-004</b></td>
+<td>Deve permitir ao cliente adicionar produtos a sua comanda  </td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><b>RF-005</b></td>
+<td>Deve permitir ao cliente visualizar todos os pedidos realizados da comanda</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><b>RF-006</b></td>
+<td>Deve permitir ao cliente fechar o pedido para pagamento</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><b>RF-007</b></td>
+<td>Deve permitir o cliente visualizar os produtos pela sua categoria</td>
+<td>Média</td>
+</tr>
+<tr>
+<td><b>RF-008</b></td>
+<td>Deve permitir ao gerente dar baixa aos pedidos já pagos</td>
+<td>Média</td>
+</tr>
+<tr>
+<td><b>RF-009</b></td>
+<td>Deve permitir o cliente navegar entre as páginas da aplicação</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><b>RF-010</b></td>
+<td>Deve permitir a escolha de quantidade do produto que vai ser adicionado ao pedido</td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+
+**Prioridade: Alta / Média / Baixa. 
+
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+<table>
+<tbody>
+<tr align=center>
+<td width="100px"><b>ID</b></td>
+<td width="650px"><b>Descrição</b></td>
+<td width="100px"><b>Prioridade</b></td>
+</tr>
+<tr>
+<td><b>RNF-001</b></td>
+<td>A aplicação deve ser responsiva para adaptar-se às telas de tablets e smartphones</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><b>RNF-002</b></td>
+<td>A aplicação deve ser intuitiva para pessoas sem experiência</td>
+<td>Média</td>
+</tr>
+<tr>
+<td><b>RNF-003</b></td>
+<td>A aplicação deve ser intuitiva para pessoas sem experiência</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td><b>RNF-004</b></td>
+<td>Deve ser desenvolvido utilizando padrão MVC com SQL Server</td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+**Prioridade: Alta / Média / Baixa. 
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+<table>
+<tbody>
+<tr align=center>
+<td width="100px"><b>ID</b></td>
+<td width="650px"><b>Descrição</b></td>
+</tr>
+<tr>
+<td><b>RE-001</b></td>
+<td>O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 23/06/24</td>
+</tr>
+<tr>
+<td><b>RE-002</b></td>
+<td>A equipe não pode subcontratar o desenvolvimento do trabalho</td>
+</tr>
+<tr>
+<td><b>RE-003</b></td>
+<td>O sistema deve ser desenvolvido em C# .NET -> Entity Framework</td>
+</tr>
+</tbody>
+</table>
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
