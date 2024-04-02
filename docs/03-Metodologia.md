@@ -11,6 +11,7 @@ O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: versão estável já testada do software
 - `dev`: versão de desenvolvimento do software
+- Cada desenvolvedor terá sua própria branch para desenvolver novas funcionalidades
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
