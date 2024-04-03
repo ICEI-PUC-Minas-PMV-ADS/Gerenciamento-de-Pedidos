@@ -2,26 +2,83 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+<table>
+<tbody>
+<tr align=center>
+<td width="150px"><b>Ingrid Andrade</b></td>
+<td width="100px"><b>Idade</b></td>
+<td width="150px"><b>Ocupação</b></td>
+<td width="150px"><b>Aplicativos</b></td>
+<td width="200px"><b>Motivações</b></td>
+<td width="200px"><b>Frustrações</b></td>
+<td width="200px"><b>Hobbies, História</b></td>
+</tr>
+<tr>
+<td><figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Gerenciamento-de-Pedidos\docs\img\persona2.png"
+</figure> </td>
+<td>21 Anos</td>
+<td>Estudante de direito, cliente</td>
+<td>Instagram | Pinterest | X </td>
+<td>Sonho em me tornar uma advogada influente que advoga por justiça e igualdade</td>
+<td>Atraso do meu pedido | Perda de tempo, resultando em atraso no meu horário de pausa dos estudos</td>
+<td>Caminhadas | Tenis | Livros</td>
+</tr>
+</tbody>
+</table>
+<p>
+<table>
+<tbody>
+<tr align=center>
+<td width="150px"><b>Thiago Souza</b></td>
+<td width="100px"><b>Idade</b></td>
+<td width="150px"><b>Ocupação</b></td>
+<td width="150px"><b>Aplicativos</b></td>
+<td width="200px"><b>Motivações</b></td>
+<td width="200px"><b>Frustrações</b></td>
+<td width="200px"><b>Hobbies, História</b></td>
+</tr>
+<tr>
+<td><figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Gerenciamento-de-Pedidos\docs\img\persona1.png"
+</figure> </td>
+<td>35 Anos</td>
+<td>Pizzaiolo e Empreendedor, Sócio da Pizzaria Rosas de Saron</td>
+<td>Instagram | Flipboard | LinkedIn</td>
+<td>Crescimento da minha área profissional | Criar um empreendimento que cresça e seja algo grande, com renome e grande importância no cenário nacional</td>
+<td>Fluxo intenso e desorganizado de clientes | Atraso nos pedidos | Má capacitação dos profissionais</td>
+<td>Jogos eletrônicos | Desenvolvi o sonho de constribuir para o crescimento da minha área profissional e transformar meu empreendimento em algo renomado de grande importância nacional</td>
+</tr>
+</tbody>
+</table>
+<p>
+<table>
+<tbody>
+<tr align=center>
+<td width="150px"><b>Marcelo Augusto</b></td>
+<td width="100px"><b>Idade</b></td>
+<td width="150px"><b>Ocupação</b></td>
+<td width="150px"><b>Aplicativos</b></td>
+<td width="200px"><b>Motivações</b></td>
+<td width="200px"><b>Frustrações</b></td>
+<td width="200px"><b>Hobbies, História</b></td>
+</tr>
+<tr>
+<td><figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Gerenciamento-de-Pedidos\docs\img\persona3.png"
+</figure> </td>
+<td>35 Anos</td>
+<td>Balconista</td>
+<td>Instagram</td>
+<td>Crescimento da minha área profissional</td>
+<td>Erros nas anotações dos pedidos | Atraso no atendimento das mesas</td>
+<td>Música | Apostas | esportes</td>
+</tr>
+</tbody>
+</table>
 
 
 ## Histórias de Usuários
@@ -200,13 +257,7 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Gerenciamento-de-Pedidos\docs\img\img-diagrama-de-caso-de-uso.png"
+</figure>
