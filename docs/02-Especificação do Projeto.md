@@ -25,20 +25,6 @@
 <td>Atraso do meu pedido; perda de tempo, resultando em atraso no meu horário de pausa dos estudos</td>
 <td>Caminhadas, Tenis, Livros</td>
 </tr>
-</tbody>
-</table>
-<p>
-<table>
-<tbody>
-<tr align=center>
-<td width="150px"><b>Nome</b></td>
-<td width="100px"><b>Idade</b></td>
-<td width="150px"><b>Ocupação</b></td>
-<td width="150px"><b>Aplicativos</b></td>
-<td width="200px"><b>Motivações</b></td>
-<td width="200px"><b>Frustrações</b></td>
-<td width="200px"><b>Hobbies, História</b></td>
-</tr>
 <tr>
 <td>Thiago Souza</td>
 <td>35 Anos</td>
@@ -47,20 +33,6 @@
 <td>Crescimento da minha área profissional; criar um empreendimento que cresça e seja algo grande, com renome e grande importância no cenário nacional</td>
 <td>Fluxo intenso e desorganizado de clientes; atraso nos pedidos; má capacitação dos profissionais</td>
 <td>Jogos eletrônicos; desenvolvi o sonho de constribuir para o crescimento da minha área profissional e transformar meu empreendimento em algo renomado de grande importância nacional</td>
-</tr>
-</tbody>
-</table>
-<p>
-<table>
-<tbody>
-<tr align=center>
-<td width="150px"><b>Nome</b></td>
-<td width="100px"><b>Idade</b></td>
-<td width="150px"><b>Ocupação</b></td>
-<td width="150px"><b>Aplicativos</b></td>
-<td width="200px"><b>Motivações</b></td>
-<td width="200px"><b>Frustrações</b></td>
-<td width="200px"><b>Hobbies, História</b></td>
 </tr>
 <tr>
 <td>Marcelo Augusto</td>
