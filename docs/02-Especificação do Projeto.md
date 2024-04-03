@@ -8,7 +8,7 @@
 <table>
 <tbody>
 <tr align=center>
-<td width="150px"><b>Ingrid Andrade</b></td>
+<td width="150px"><b>Nome</b></td>
 <td width="100px"><b>Idade</b></td>
 <td width="150px"><b>Ocupação</b></td>
 <td width="150px"><b>Aplicativos</b></td>
@@ -17,15 +17,13 @@
 <td width="200px"><b>Hobbies, História</b></td>
 </tr>
 <tr>
-<td><figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Gerenciamento-de-Pedidos\docs\img\persona2.png"
-</figure> </td>
+<td>Ingrid Andrade</td>
 <td>21 Anos</td>
 <td>Estudante de direito, cliente</td>
-<td>Instagram | Pinterest | X </td>
+<td>Instagram, Pinterest, X </td>
 <td>Sonho em me tornar uma advogada influente que advoga por justiça e igualdade</td>
-<td>Atraso do meu pedido | Perda de tempo, resultando em atraso no meu horário de pausa dos estudos</td>
-<td>Caminhadas | Tenis | Livros</td>
+<td>Atraso do meu pedido; perda de tempo, resultando em atraso no meu horário de pausa dos estudos</td>
+<td>Caminhadas, Tenis, Livros</td>
 </tr>
 </tbody>
 </table>
@@ -33,7 +31,7 @@
 <table>
 <tbody>
 <tr align=center>
-<td width="150px"><b>Thiago Souza</b></td>
+<td width="150px"><b>Nome</b></td>
 <td width="100px"><b>Idade</b></td>
 <td width="150px"><b>Ocupação</b></td>
 <td width="150px"><b>Aplicativos</b></td>
@@ -42,15 +40,13 @@
 <td width="200px"><b>Hobbies, História</b></td>
 </tr>
 <tr>
-<td><figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Gerenciamento-de-Pedidos\docs\img\persona1.png"
-</figure> </td>
+<td>Thiago Souza</td>
 <td>35 Anos</td>
 <td>Pizzaiolo e Empreendedor, Sócio da Pizzaria Rosas de Saron</td>
-<td>Instagram | Flipboard | LinkedIn</td>
-<td>Crescimento da minha área profissional | Criar um empreendimento que cresça e seja algo grande, com renome e grande importância no cenário nacional</td>
-<td>Fluxo intenso e desorganizado de clientes | Atraso nos pedidos | Má capacitação dos profissionais</td>
-<td>Jogos eletrônicos | Desenvolvi o sonho de constribuir para o crescimento da minha área profissional e transformar meu empreendimento em algo renomado de grande importância nacional</td>
+<td>Instagram, Flipboard, LinkedIn</td>
+<td>Crescimento da minha área profissional; criar um empreendimento que cresça e seja algo grande, com renome e grande importância no cenário nacional</td>
+<td>Fluxo intenso e desorganizado de clientes; atraso nos pedidos; má capacitação dos profissionais</td>
+<td>Jogos eletrônicos; desenvolvi o sonho de constribuir para o crescimento da minha área profissional e transformar meu empreendimento em algo renomado de grande importância nacional</td>
 </tr>
 </tbody>
 </table>
@@ -58,7 +54,7 @@
 <table>
 <tbody>
 <tr align=center>
-<td width="150px"><b>Marcelo Augusto</b></td>
+<td width="150px"><b>Nome</b></td>
 <td width="100px"><b>Idade</b></td>
 <td width="150px"><b>Ocupação</b></td>
 <td width="150px"><b>Aplicativos</b></td>
@@ -67,15 +63,13 @@
 <td width="200px"><b>Hobbies, História</b></td>
 </tr>
 <tr>
-<td><figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/Gerenciamento-de-Pedidos\docs\img\persona3.png"
-</figure> </td>
+<td>Marcelo Augusto</td>
 <td>35 Anos</td>
 <td>Balconista</td>
 <td>Instagram</td>
 <td>Crescimento da minha área profissional</td>
-<td>Erros nas anotações dos pedidos | Atraso no atendimento das mesas</td>
-<td>Música | Apostas | esportes</td>
+<td>Erros nas anotações dos pedidos; atraso no atendimento das mesas</td>
+<td>Música; apostas, esportes</td>
 </tr>
 </tbody>
 </table>
